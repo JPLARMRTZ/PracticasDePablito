@@ -1,0 +1,66 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cuadrícula flexible con columnas de 200px de ancho mínimo */
+    gap: 20px; /* Espacio entre las películas */
+}
+
+.pelicula {
+    text-align: center;
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pelicula h2 {
+    margin: 10px 0 0; /* Ajuste del margen para el nombre de la película */
+}
+
+.centrar {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Ajusta la altura según el tamaño de la pantalla */
+  }
+
+  .contenedor {
+    display: flex;
+    height: 100vh; /* Altura igual al 100% del viewport */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    margin-bottom: 1000px;
+  }
+
+  .Cuadrito2 {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    margin: 0 10px; /* Espacio entre las cajas */
+    margin-bottom: 5px; /* Ajusta esta propiedad según sea necesario */
+    height: 240px;
+    width: 400px;
+    background-color: #FADBD8;
+    border-radius: 10px;
+}
+
+.Cuadrito2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Cuadrito2 img {
+    border-radius: 10px;
+    float: left; /* Colocar la imagen a la izquierda del texto */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}

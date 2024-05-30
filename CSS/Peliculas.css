@@ -1,0 +1,16 @@
+.contenedor_1 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    text-align: center;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.Cuadrito_1 {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    margin: 0 10px; /* Espacio entre las cajas */
+    height: 860px;
+    width: 800px;
+    background-color: #FADBD8;
+    border-radius: 10px;
+}

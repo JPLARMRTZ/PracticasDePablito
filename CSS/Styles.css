@@ -1,0 +1,161 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FADBD8; /* Color rosita claro */
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos anteriores */
+
+.imagen-grande {
+    margin-top: 20px; /* Espacio entre la barra de navegación y la imagen grande */
+    text-align: center; /* Centrar la imagen */
+}
+
+.imagen-grande img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+.Cuadrito {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    margin: 0 10px; /* Espacio entre las cajas */
+    height: 240px;
+    width: 400px;
+    background-color: #FADBD8;
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajusta este valor según sea necesario */
+}
+.caja {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    margin: 0 10px; /* Espacio entre las cajas */
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pelicula {
+    width: 200px;
+    margin: 3px; /* Margen reducido a 3px */
+    text-align: center;
+  }
+  
+  .pelicula img {
+    max-width: 100%;
+  }
+  
+  .pelicula h2 {
+    margin: 5px 0;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{font-family: "reboto", sans-serif;
+}
+
+main{
+    background-color: white;
+    padding: 20px 30px;
+}
+/*main{
+    backgroud: red
+}*/
+/**foto de perfil**/
+main .foto{
+    width: 130px;
+    height: 130px;
+    background-color: rgba(192, 138, 183, 0.76);
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/****boton****/
+.boton .btn{
+    background: rgba(161, 60, 153, 0.89);
+    border-radius: 5px
+}
+.boton a{
+    text-decoration: none; /**quita el subrayado*/
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgba(136, 62, 118, 0.719);
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}

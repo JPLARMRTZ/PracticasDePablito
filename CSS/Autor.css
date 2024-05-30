@@ -1,0 +1,42 @@
+body {
+    background-image: url('../IMAGENES/Fondo\ \(2\).png');
+}
+
+.Cuadrito1 {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    text-align: left;
+    margin: 0 10px; /* Espacio entre las cajas */
+    height: 860px;
+    width: 800px;
+    background-color: #FADBD8;
+    border-radius: 10px;
+}
+
+.Cuadrito1 img {
+    border-radius: 10px;
+    float: left; /* Colocar la imagen a la izquierda del texto */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+.fila {
+    display: flex;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.Cuadrito2 {
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+    margin: 0 10px; /* Espacio entre las cajas */
+    height: 240px;
+    width: 400px;
+    background-color: #FADBD8;
+    border-radius: 10px;
+}
+
